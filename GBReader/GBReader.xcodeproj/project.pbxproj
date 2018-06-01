@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16174B62208ED02900F7990F /* GBBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16174B61208ED02900F7990F /* GBBaseNavigationViewController.m */; };
+		16174B67208ED3A800F7990F /* GBReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16174B66208ED3A800F7990F /* GBReaderViewController.m */; };
+		16174B6A208ED88600F7990F /* GBReadPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16174B69208ED88600F7990F /* GBReadPageViewController.m */; };
+		16174B74208F1C1F00F7990F /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 16174B73208F1C1F00F7990F /* UIView+Layout.m */; };
+		16239B15208D8C8C006EF0FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16239B14208D8C8C006EF0FA /* AppDelegate.m */; };
+		16239B1B208D8C8C006EF0FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16239B19208D8C8C006EF0FA /* Main.storyboard */; };
+		16239B1D208D8C8E006EF0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16239B1C208D8C8E006EF0FA /* Assets.xcassets */; };
+		16239B20208D8C8E006EF0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16239B1E208D8C8E006EF0FA /* LaunchScreen.storyboard */; };
+		16239B23208D8C8E006EF0FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16239B22208D8C8E006EF0FA /* main.m */; };
+		4E6A538A61C2BB307A99DDBE /* libPods-GBReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A18C26067463A60A7CFC20D7 /* libPods-GBReader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16239B29208D8C8E006EF0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16239B08208D8C8C006EF0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16239B0F208D8C8C006EF0FA;
+			remoteInfo = GBReader;
+		};
+		16239B34208D8C8E006EF0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16239B08208D8C8C006EF0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16239B0F208D8C8C006EF0FA;
+			remoteInfo = GBReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16174B60208ED02900F7990F /* GBBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBBaseNavigationViewController.h; sourceTree = "<group>"; };
+		16174B61208ED02900F7990F /* GBBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBBaseNavigationViewController.m; sourceTree = "<group>"; };
+		16174B65208ED3A800F7990F /* GBReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBReaderViewController.h; sourceTree = "<group>"; };
+		16174B66208ED3A800F7990F /* GBReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBReaderViewController.m; sourceTree = "<group>"; };
+		16174B68208ED88600F7990F /* GBReadPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBReadPageViewController.h; sourceTree = "<group>"; };
+		16174B69208ED88600F7990F /* GBReadPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBReadPageViewController.m; sourceTree = "<group>"; };
+		16174B6B208F193200F7990F /* GBReader_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBReader_Prefix.pch; sourceTree = "<group>"; };
+		16174B72208F1C1F00F7990F /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		16174B73208F1C1F00F7990F /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		16239B10208D8C8C006EF0FA /* GBReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16239B13208D8C8C006EF0FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16239B14208D8C8C006EF0FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16239B1A208D8C8C006EF0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16239B1C208D8C8E006EF0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16239B1F208D8C8E006EF0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16239B21208D8C8E006EF0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16239B22208D8C8E006EF0FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16239B28208D8C8E006EF0FA /* GBReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16239B33208D8C8E006EF0FA /* GBReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F17F78FF78F64A62225F09 /* Pods-GBReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-GBReader/Pods-GBReader.release.xcconfig"; sourceTree = "<group>"; };
+		4607A05C0466FBB1FB9B82C0 /* Pods-GBReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBReader/Pods-GBReader.debug.xcconfig"; sourceTree = "<group>"; };
+		A18C26067463A60A7CFC20D7 /* libPods-GBReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GBReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16239B0D208D8C8C006EF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6A538A61C2BB307A99DDBE /* libPods-GBReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16239B25208D8C8E006EF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16239B30208D8C8E006EF0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16174B5B208ECE4500F7990F /* ReaderService */ = {
+			isa = PBXGroup;
+			children = (
+				16174B64208ED3A800F7990F /* Controllers */,
+				16174B63208ED3A800F7990F /* Views */,
+			);
+			path = ReaderService;
+			sourceTree = "<group>";
+		};
+		16174B5F208ED00D00F7990F /* BaseService */ = {
+			isa = PBXGroup;
+			children = (
+				16174B60208ED02900F7990F /* GBBaseNavigationViewController.h */,
+				16174B61208ED02900F7990F /* GBBaseNavigationViewController.m */,
+			);
+			path = BaseService;
+			sourceTree = "<group>";
+		};
+		16174B63208ED3A800F7990F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16174B64208ED3A800F7990F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16174B65208ED3A800F7990F /* GBReaderViewController.h */,
+				16174B66208ED3A800F7990F /* GBReaderViewController.m */,
+				16174B68208ED88600F7990F /* GBReadPageViewController.h */,
+				16174B69208ED88600F7990F /* GBReadPageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16174B6C208F1BE200F7990F /* CommonService */ = {
+			isa = PBXGroup;
+			children = (
+				16174B70208F1BE200F7990F /* Categories */,
+			);
+			path = CommonService;
+			sourceTree = "<group>";
+		};
+		16174B70208F1BE200F7990F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				16174B72208F1C1F00F7990F /* UIView+Layout.h */,
+				16174B73208F1C1F00F7990F /* UIView+Layout.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		16239B07208D8C8C006EF0FA = {
+			isa = PBXGroup;
+			children = (
+				16239B12208D8C8C006EF0FA /* GBReader */,
+				16239B11208D8C8C006EF0FA /* Products */,
+				E07FFCB900CCFD2780788CAC /* Pods */,
+				A12B7FE566DB65C9B3A24029 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16239B11208D8C8C006EF0FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16239B10208D8C8C006EF0FA /* GBReader.app */,
+				16239B28208D8C8E006EF0FA /* GBReaderTests.xctest */,
+				16239B33208D8C8E006EF0FA /* GBReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16239B12208D8C8C006EF0FA /* GBReader */ = {
+			isa = PBXGroup;
+			children = (
+				16174B6C208F1BE200F7990F /* CommonService */,
+				16174B5F208ED00D00F7990F /* BaseService */,
+				16174B5B208ECE4500F7990F /* ReaderService */,
+				16239B13208D8C8C006EF0FA /* AppDelegate.h */,
+				16239B14208D8C8C006EF0FA /* AppDelegate.m */,
+				16239B19208D8C8C006EF0FA /* Main.storyboard */,
+				16239B1C208D8C8E006EF0FA /* Assets.xcassets */,
+				16239B1E208D8C8E006EF0FA /* LaunchScreen.storyboard */,
+				16239B21208D8C8E006EF0FA /* Info.plist */,
+				16239B22208D8C8E006EF0FA /* main.m */,
+				16174B6B208F193200F7990F /* GBReader_Prefix.pch */,
+			);
+			path = GBReader;
+			sourceTree = "<group>";
+		};
+		A12B7FE566DB65C9B3A24029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A18C26067463A60A7CFC20D7 /* libPods-GBReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07FFCB900CCFD2780788CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4607A05C0466FBB1FB9B82C0 /* Pods-GBReader.debug.xcconfig */,
+				29F17F78FF78F64A62225F09 /* Pods-GBReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16239B0F208D8C8C006EF0FA /* GBReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16239B3C208D8C8E006EF0FA /* Build configuration list for PBXNativeTarget "GBReader" */;
+			buildPhases = (
+				B3096F9BF9801CA6B793584A /* [CP] Check Pods Manifest.lock */,
+				16239B0C208D8C8C006EF0FA /* Sources */,
+				16239B0D208D8C8C006EF0FA /* Frameworks */,
+				16239B0E208D8C8C006EF0FA /* Resources */,
+				24371481A31B31AE64208626 /* [CP] Embed Pods Frameworks */,
+				51E0F33209B46D85C39FC947 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBReader;
+			productName = GBReader;
+			productReference = 16239B10208D8C8C006EF0FA /* GBReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16239B27208D8C8E006EF0FA /* GBReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16239B3F208D8C8E006EF0FA /* Build configuration list for PBXNativeTarget "GBReaderTests" */;
+			buildPhases = (
+				16239B24208D8C8E006EF0FA /* Sources */,
+				16239B25208D8C8E006EF0FA /* Frameworks */,
+				16239B26208D8C8E006EF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16239B2A208D8C8E006EF0FA /* PBXTargetDependency */,
+			);
+			name = GBReaderTests;
+			productName = GBReaderTests;
+			productReference = 16239B28208D8C8E006EF0FA /* GBReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16239B32208D8C8E006EF0FA /* GBReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16239B42208D8C8E006EF0FA /* Build configuration list for PBXNativeTarget "GBReaderUITests" */;
+			buildPhases = (
+				16239B2F208D8C8E006EF0FA /* Sources */,
+				16239B30208D8C8E006EF0FA /* Frameworks */,
+				16239B31208D8C8E006EF0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16239B35208D8C8E006EF0FA /* PBXTargetDependency */,
+			);
+			name = GBReaderUITests;
+			productName = GBReaderUITests;
+			productReference = 16239B33208D8C8E006EF0FA /* GBReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16239B08208D8C8C006EF0FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = youguobiao;
+				TargetAttributes = {
+					16239B0F208D8C8C006EF0FA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					16239B27208D8C8E006EF0FA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 16239B0F208D8C8C006EF0FA;
+					};
+					16239B32208D8C8E006EF0FA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 16239B0F208D8C8C006EF0FA;
+					};
+				};
+			};
+			buildConfigurationList = 16239B0B208D8C8C006EF0FA /* Build configuration list for PBXProject "GBReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16239B07208D8C8C006EF0FA;
+			productRefGroup = 16239B11208D8C8C006EF0FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16239B0F208D8C8C006EF0FA /* GBReader */,
+				16239B27208D8C8E006EF0FA /* GBReaderTests */,
+				16239B32208D8C8E006EF0FA /* GBReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16239B0E208D8C8C006EF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16239B20208D8C8E006EF0FA /* LaunchScreen.storyboard in Resources */,
+				16239B1D208D8C8E006EF0FA /* Assets.xcassets in Resources */,
+				16239B1B208D8C8C006EF0FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16239B26208D8C8E006EF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16239B31208D8C8E006EF0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24371481A31B31AE64208626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBReader/Pods-GBReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E0F33209B46D85C39FC947 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GBReader/Pods-GBReader-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBReader/Pods-GBReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3096F9BF9801CA6B793584A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16239B0C208D8C8C006EF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16239B23208D8C8E006EF0FA /* main.m in Sources */,
+				16239B15208D8C8C006EF0FA /* AppDelegate.m in Sources */,
+				16174B74208F1C1F00F7990F /* UIView+Layout.m in Sources */,
+				16174B67208ED3A800F7990F /* GBReaderViewController.m in Sources */,
+				16174B6A208ED88600F7990F /* GBReadPageViewController.m in Sources */,
+				16174B62208ED02900F7990F /* GBBaseNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16239B24208D8C8E006EF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16239B2F208D8C8E006EF0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16239B2A208D8C8E006EF0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16239B0F208D8C8C006EF0FA /* GBReader */;
+			targetProxy = 16239B29208D8C8E006EF0FA /* PBXContainerItemProxy */;
+		};
+		16239B35208D8C8E006EF0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16239B0F208D8C8C006EF0FA /* GBReader */;
+			targetProxy = 16239B34208D8C8E006EF0FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16239B19208D8C8C006EF0FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16239B1A208D8C8C006EF0FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16239B1E208D8C8E006EF0FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16239B1F208D8C8E006EF0FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16239B3A208D8C8E006EF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16239B3B208D8C8E006EF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16239B3D208D8C8E006EF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4607A05C0466FBB1FB9B82C0 /* Pods-GBReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PB98G29D54;
+				INFOPLIST_FILE = GBReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiu.GBReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e42656aa-eb5e-4f8e-a563-b002c9f38f16";
+				PROVISIONING_PROFILE_SPECIFIER = AllDemo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16239B3E208D8C8E006EF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F17F78FF78F64A62225F09 /* Pods-GBReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GBReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiu.GBReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16239B40208D8C8E006EF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GBReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiu.GBReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBReader.app/GBReader";
+			};
+			name = Debug;
+		};
+		16239B41208D8C8E006EF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GBReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiu.GBReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBReader.app/GBReader";
+			};
+			name = Release;
+		};
+		16239B43208D8C8E006EF0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GBReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiu.GBReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GBReader;
+			};
+			name = Debug;
+		};
+		16239B44208D8C8E006EF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GBReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biubiu.GBReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GBReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16239B0B208D8C8C006EF0FA /* Build configuration list for PBXProject "GBReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16239B3A208D8C8E006EF0FA /* Debug */,
+				16239B3B208D8C8E006EF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16239B3C208D8C8E006EF0FA /* Build configuration list for PBXNativeTarget "GBReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16239B3D208D8C8E006EF0FA /* Debug */,
+				16239B3E208D8C8E006EF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16239B3F208D8C8E006EF0FA /* Build configuration list for PBXNativeTarget "GBReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16239B40208D8C8E006EF0FA /* Debug */,
+				16239B41208D8C8E006EF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16239B42208D8C8E006EF0FA /* Build configuration list for PBXNativeTarget "GBReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16239B43208D8C8E006EF0FA /* Debug */,
+				16239B44208D8C8E006EF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16239B08208D8C8C006EF0FA /* Project object */;
+}
